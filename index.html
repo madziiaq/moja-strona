@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domowa Cukiernia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(
+                rgba(255, 192, 203, 0.7), 
+                rgba(255, 105, 180, 0.9) 
+            ),
+            url('tlo-cukiernia.jpg') no-repeat center center fixed; 
+            background-size: cover; 
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.9); 
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+        header img {
+            width: 50px; 
+            height: auto;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            color: #333;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #ff4d4d;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.9); 
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="loga.jpg" alt="Logo Domowa Cukiernia"> 
+            <nav>
+                <a href="#home">Strona Główna</a>
+                <a href="#about">O nas</a>
+                <a href="#products">Produkty</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Witaj w Domowej Cukierni!</h1>
+            <p>Znajdziesz tu najsłodsze ciasta i wypieki, które zachwycą Twoje podniebienie. Sprawdź naszą ofertę i odkryj smak prawdziwej słodyczy.</p>
+            <a href="#order" class="btn">Przyjdź Teraz</a>
+        </div>
+    </section>
+    <footer>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>O Nas</h2>
+                <p>Domowa Cukiernia to miejsce, gdzie pasja do pieczenia łączy się z miłością do słodyczy. Założyliśmy naszą cukiernię z myślą o tworzeniu wypieków, które łączą tradycję z nowoczesnymi trendami kulinarnymi. Nasze ciasta, ciasteczka i torty są wytwarzane z najwyższej jakości składników, aby każda chwila z nimi była niezapomniana.</p>
+                <p>W naszej ofercie znajdziesz szeroki wybór słodkości, które powstają w naszej pracowni z dbałością o każdy detal. Nasza misja to dostarczanie radości i słodyczy na każdą okazję.</p>
+                <h3>Nasz Zespół</h3>
+                <div class="team">
+                    <div class="team-member">
+                        <img src="szef.avif" alt="Szef Kuchni">
+                        <h3>Anna Kowalska</h3>
+                        <p>Szef Kuchni – specjalistka od tradycyjnych receptur i nowoczesnych słodkości.</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="cuki.jpg" alt="Cukiernik">
+                        <h3>Jan Nowak</h3>
+                        <p>Cukiernik – pasjonat wypieków z wieloletnim doświadczeniem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Produkty - Domowa Cukiernia</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f9f9f9;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .containerr {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                .product {
+                    background-color: white;
+                    border: 1px solid #ddd;
+                    border-radius: 10px;
+                    margin: 10px;
+                    width: 300px;
+                    padding: 20px;
+                    text-align: center;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                .product img {
+                    width: 100%;
+                    height: auto;
+                    border-bottom: 1px solid #ddd;
+                    padding-bottom: 15px;
+                    margin-bottom: 15px;
+                }
+                .product h3 {
+                    font-size: 1.5em;
+                    color: #333;
+                }
+                .product p {
+                    font-size: 1em;
+                    color: #666;
+                }
+            </style>
+      <section id="products" class="products">
+        <h1>Nasze produkty</h1>
+            <div class="containerr">
+                <div class="product">
+                    <img src="1.jpg" alt="Cappucino Kokos">
+                    <h3>Cappucino Kokos</h3>
+                    <p>Ciemny biszkopt przełożony masą cappucino i kokosem</p>
+                </div>
+                <div class="product">
+                    <img src="2.jpg" alt="Malinowy Raj">
+                    <h3>Malinowy Raj</h3>
+                    <p>Kruche ciasto ze śmietaną, malinami i bezą</p>
+                </div>
+                <div class="product">
+                    <img src="3.jpg" alt="Malinowa Księżniczka">
+                    <h3>Malinowa Księżniczka</h3>
+                    <p>Ciemny biszkopt z masą śmietanowo-serową i malinami</p>
+                </div>
+                <div class="product">
+                    <img src="4.jpg" alt="Słony Karmel">
+                    <h3>Słony Karmel</h3>
+                    <p>Ciasto brownie z karmelizowanymi orzechami oraz masą słony karmel</p>
+                </div>
+                <div class="product">
+                    <img src="5.jpg" alt="Pasek Czekoladowo-Orzechowy">
+                    <h3>Pasek Czekoladowo-Orzechowy</h3>
+                    <p>Ciemny i jasny biszkopt przełożony masą czekoladowo-orzechową</p>
+                </div>
+                <div class="product">
+                    <img src="6.jpg" alt="Mascarpone">
+                    <h3>Mascarpone</h3>
+                    <p>Czekoladowy biszkopt z masą śmietanową, owocami i galaretką</p>
+                </div>
+               
+            </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+            <h2 style="color: #d9534f; font-weight: bold;">Domowa Cukiernia</h2>
+            <p>ul. Pod Lasem 1<br>12-345 Warszawa</p>
+            <p>NIP: 1234567890</p>
+            <p>e-mail: domowacukiernia@domowa.pl </p>
+            
+            <p style="font-weight: bold;">Cukiernia Biuro</p>
+            <p>tel. +48 123456789</p>
+            
+            <p>Nr rachunku bankowego:<br>12 0000 0000 0000 0000 0000 0000</p>
+        </div>
+    </section>
+    
+    </footer>
+</body>
+</html>
